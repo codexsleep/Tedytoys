@@ -24,6 +24,11 @@ namespace Tedytoys
             InitializeComponent();
         }
 
-      
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            Tambahdata tambah = new Tambahdata();
+            tambah.Show();
+            this.Close();
+        }
     }
 }

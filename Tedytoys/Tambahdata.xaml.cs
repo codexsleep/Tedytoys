@@ -23,5 +23,12 @@ namespace Tedytoys
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Admin produk = new Admin();
+            produk.Show();
+            this.Close();
+        }
     }
 }

@@ -55,10 +55,35 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Detailmainan.xaml.cs">
+      <DependentUpon>Detailmainan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Struk.xaml.cs">
+      <DependentUpon>Struk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Supplier.xaml.cs">
+      <DependentUpon>Supplier.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tambahdata.xaml.cs">
       <DependentUpon>Tambahdata.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tambahsupplier.xaml.cs">
+      <DependentUpon>Tambahsupplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tambahtransaksi.xaml.cs">
+      <DependentUpon>Tambahtransaksi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi.xaml.cs">
+      <DependentUpon>Transaksi.xaml</DependentUpon>
+    </Compile>
     <Page Include="Admin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Detailmainan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -84,7 +109,31 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Struk.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Supplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Tambahdata.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tambahsupplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tambahtransaksi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Transaksi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

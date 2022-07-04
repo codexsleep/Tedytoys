@@ -23,7 +23,7 @@
         </Rectangle>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="41" Margin="29,35,0,0" VerticalAlignment="Top" Width="54" Source="/avatar.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="82,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run FontWeight="Bold" Text="Theo"/></TextBlock>
-        <Button x:Name="button" Content="Produk" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
+        <Button x:Name="button" Content="Produk" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White" Click="button_Click"/>
         <Button x:Name="button_Copy" Content="Supplier" HorizontalAlignment="Left" Margin="0,191,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
         <Button x:Name="button_Copy1" Content="Transaksi" HorizontalAlignment="Left" Margin="0,249,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
         <Button x:Name="button_Copy2" Content="Logout" HorizontalAlignment="Left" Margin="0,401,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>

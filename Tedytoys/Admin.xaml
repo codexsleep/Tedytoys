@@ -24,7 +24,7 @@
         </Rectangle>
         <Image x:Name="image1" HorizontalAlignment="Left" Height="41" Margin="29,35,0,0" VerticalAlignment="Top" Width="54" Source="/avatar.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="82,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16"><Run FontWeight="Bold" Text="Theo"/></TextBlock>
-        <Button x:Name="button" Content="Produk" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
+        <Button x:Name="button" Content="Produk" HorizontalAlignment="Left" Margin="0,130,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF7B98FF" Foreground="White"/>
         <Button x:Name="button_Copy" Content="Supplier" HorizontalAlignment="Left" Margin="0,191,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
         <Button x:Name="button_Copy1" Content="Transaksi" HorizontalAlignment="Left" Margin="0,249,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
         <Button x:Name="button_Copy2" Content="Logout" HorizontalAlignment="Left" Margin="0,401,0,0" VerticalAlignment="Top" Height="45" Width="159" FontSize="16" FontWeight="Normal" BorderBrush="{x:Null}" Background="#FF466FFF" Foreground="White"/>
@@ -60,7 +60,7 @@
             </WrapPanel>
         </ScrollViewer>
         <Label x:Name="label1" Content="Data Mainan" HorizontalAlignment="Left" Margin="230,167,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <Button x:Name="button4" Content="ADD" HorizontalAlignment="Left" Margin="623,160,0,0" VerticalAlignment="Top" Height="40" Width="117" FontSize="18" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White"/>
+        <Button x:Name="button4" Content="ADD" HorizontalAlignment="Left" Margin="623,160,0,0" VerticalAlignment="Top" Height="40" Width="117" FontSize="18" FontWeight="Bold" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="button4_Click"/>
         <Image x:Name="image2" HorizontalAlignment="Left" Height="21" Margin="633,170,0,0" VerticalAlignment="Top" Width="39" Source="/tambah.png"/>
 
     </Grid>
